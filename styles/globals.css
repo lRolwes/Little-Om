@@ -1,5 +1,7 @@
+
 html,
 body {
+
   padding: 0;
   margin: 0;
   font-family:
@@ -29,4 +31,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+button{
+  border-radius: 42px;
+  border: 1px solid #E36B58;
+  background: #E36B58;
+  @apply px-4 py-2 bg-red-400;
+
 }
