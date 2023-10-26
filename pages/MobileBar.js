@@ -24,7 +24,7 @@ const MobileBar = () => {
         <div className="flex lg:hidden p-4 pb-0">
             <FaBars onClick={handleNav} className = " text-orange z-20 text-2xl"/>
             <div className = { nav ? "z-10 absolute ease-in duration-300 h-screen bg-tan text-orange bg-opacity-95 text-4xl w-full flex flex-col items-center" : "hidden" }>
-                <div classname = "items-center z-10 flex flex-col ml-10 ">
+                <div className = "items-center z-10 flex flex-col ml-10 ">
                     <div className='p-6 '>
                         <Link href = "/" className = "p-4">Home</Link>
                     </div>
