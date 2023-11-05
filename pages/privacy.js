@@ -1,30 +1,31 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Logo from './index';
-import Navbar from './Navbar.js';
-import Footer from './Footer.js';
-
-function Header (){
-  return(
-    <div className = "px-10 pb-5 bg-tan object-cover flex flex-col items-center">
-      <img className="rounded-xl w-full h-[40vh] object-cover" src = './images/about.png' alt='/'/>
-      <div className = "p-10 absolute top-[15%] flex flex-col text-white">
-        <h1 className = "text-[64px] font semi-bold font-serif">Privacy Policy</h1>
-      </div>
-    </div>
-    )
-}
+import Header from './components/Header.js';
+import Layout from "./../styles/layout.js";
+import {TextBox, TextBox2} from './components/Textbox.js';
 
 export default function privacy() {
   return (
-    <div className = 'bg-tan overflow-hidden'>
-        <Navbar />
-        <Header/>
+    <Layout>
+        <Head>
+              <title>Little Om Yoga - Privacy Policy</title>
+              <meta
+                  property="og:title"
+                  content="Little Om Yoga - Privacy Policy"
+                  key="title"
+              />
+        </Head>
+        <Header
+          title = "Privacy Policy"
+          image = "./images/about.png"
+        />
         <div className = "mx-[100px]">
-            <p>
+          <p className = "text-orange text-4xl font-bold font-['Boska-Variable'] leading-9">Privacy Policy</p>
+          <hr className = "h-[2px] w-[120px] my-3 border-0 bg-orange "/>
+          <p className = "text-2xl font-['GeneralSans-Variable'] indent-8">
                 Privacy Policy for Little Om Yoga
 
-                Last Updated: [Date]
+                Last Updated: 11/5/2023
 
                 At Little Om Yoga, we are committed to protecting your privacy. This Privacy Policy outlines our practices concerning the collection, use, and disclosure of your personal information when you use our website or interact with our services.
 
@@ -68,14 +69,13 @@ export default function privacy() {
 
                 Contact Us:
 
-                If you have any questions or concerns about this Privacy Policy or our data handling practices, please contact us at [contact email or phone number].
+                If you have any questions or concerns about this Privacy Policy or our data handling practices, please contact us through our contact form.
 
                 By using our website, you agree to the terms of this Privacy Policy.
 
 
             </p>
         </div>
-        <Footer/>
-    </div>
+    </Layout>
   );
 }

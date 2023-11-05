@@ -1,29 +1,25 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Logo from './index';
-import Navbar from './Navbar.js';
-import MobileBar from './MobileBar';
-import Footer from './Footer.js';
-import {TextBox, TextBox2} from './Textbox.js';
+import Header from './components/Header.js';
+import Layout from "./../styles/layout.js";
+import {TextBox, TextBox2} from './components/Textbox.js';
 
-
-function Header (){
-  return(
-    <div className="px-10 pb-5 bg-tan object-cover flex flex-col items-center">
-      <img className="mt-5 lg:mt-[0px] rounded-xl w-full h-[40vh] object-cover" src = './images/testimonials.png' alt='/'/>
-      <div className = "p-10 absolute top-[15%] flex flex-col text-white">
-        <h1 className = "text-[64px] font semi-bold font-serif">Testimonials</h1>
-      </div>
-    </div>
-    )
-}
 
 export default function testimonials() {
   return (
-    <div className = 'bg-tan overflow-hidden'>
-        <Navbar />
-        <MobileBar className = "z-10"/>
-        <Header/>
+    <Layout>
+      <Head>
+              <title>Little Om Yoga - Testimonials</title>
+              <meta
+                  property="og:title"
+                  content="Little Om Yoga - Testimonials"
+                  key="title"
+              />
+        </Head>
+        <Header
+          image = "./images/testimonials.png"
+          title = "Testimonials"
+        />
         <div>
         <div className = " m-10 flex flex-col lg:flex-row">
 
@@ -85,10 +81,8 @@ export default function testimonials() {
   
           </div>
         </div>
-
-        <div className = "bg-orange py-10 h-20 w-full"></div>
-        </div>
-        <Footer />
-    </div>
+      </div>
+      <div className = "bg-orange  py-10 h-20 w-full"></div>
+    </Layout>
   );
 }
