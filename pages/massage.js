@@ -30,7 +30,7 @@ export default function massage() {
                 <p className = "mt-10 text-black align-left text-2xl font-normal font-['GeneralSans-Variable']">A therapeutic full body massage that includes long sweeping strokes, as well as kneading, friction, vibration or tapping to release sore or tight musculature. It helps to improve circulation, move lymph, and create a deep state of relaxation.</p>
               </div>
               <TextBox2 
-                text1 = {'"What lies before us and what lies behind us are small matters compared to what lies within us.<br/>And when you bring what is within out into the world, miracles happen.'}
+                text1 = {'"What lies before us and what lies behind us are small matters compared to what lies within us. And when you bring what is within out into the world, miracles happen.'}
                 text2 = {'Henry David Thoreau'}
               />
             </div>
