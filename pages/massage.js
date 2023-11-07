@@ -1,12 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import Layout from "./../styles/layout.js";
-import Navbar from "./../components/Navbar.js";
-import Footer from "./../components/Footer.js";
-import MobileBar from "./../components/MobileBar.js";
-import {TexBox, TextBox2} from "./../components/Textbox.js";
 import Header from "./../components/Header.js";
+import {TextBox2} from "./../components/TextBox.js";
+import Layout from "./../styles/layout.js";
 export default function massage() {
   return (
     <Layout>

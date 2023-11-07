@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from './../components/Header.js';
+import Header from "./../components/Header.js";
+import {TextBox, TextBox2} from "./../components/TextBox.js";
 import Layout from "./../styles/layout.js";
-import {TextBox, TextBox2} from './../components/Textbox.js';
 
 
 export default function testimonials() {

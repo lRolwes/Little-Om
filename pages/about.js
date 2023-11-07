@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from './../components/Header.js';
 import Layout from "./../styles/layout.js";
-import {TextBox, TextBox2} from './../components/Textbox.js';
 
 
 export default function about() {

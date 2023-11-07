@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Header from "./../components/Header.js";
 
 
 export function TextBox({text1, text2}){

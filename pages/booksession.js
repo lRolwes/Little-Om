@@ -1,8 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
-import {TextBox, TextBox2} from './../components/Textbox.js';
 import Header from './../components/Header.js';
 import Layout from "./../styles/layout.js";
 

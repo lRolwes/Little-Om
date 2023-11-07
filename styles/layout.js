@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "./../components/Navbar.js";
 import Footer from "./../components/Footer.js";
 import MobileBar from "./../components/MobileBar.js";
-import {Textbox, Textbox2} from "./../components/Textbox.js";
+import {Textbox, Textbox2} from "./../components/TextBox.js";
 import Header from "./../components/Header.js";
 
 export default function Layout({ children }) {

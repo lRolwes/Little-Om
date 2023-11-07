@@ -1,9 +1,7 @@
 import 'tailwindcss/tailwind.css'
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image.js";
 import Layout from "./../styles/layout.js";
-import {TextBox, TextBox2} from './../components/Textbox.js';
 
 function Quote() {
     return (
