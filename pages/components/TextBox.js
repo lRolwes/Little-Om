@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 
-export function TextBox({text1, text2}){
+export default function TextBox({text1, text2}){
     return(
         <div className = "text-white items-center p-6 rounded-lg text-2xl font-normal font-['GeneralSans-Variable'] bg-orange text-center">
               <p className = "text-center">{text1}</p>
