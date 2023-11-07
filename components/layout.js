@@ -1,7 +1,11 @@
 import Image from "next/image";
-import Navbar from "./../components/Navbar.js";
-import Footer from "./../components/Footer.js";
-import MobileBar from "./../components/MobileBar.js";
+import Navbar from "./../src/components/Navbar.js";
+import Footer from "./../src/components/Footer.js";
+import MobileBar from "./../src/components/MobileBar.js";
+import {Textbox, Textbox2} from "./../src/components/Textbox.js";
+import Header from "./../src/components/Header.js";
+
+
 
 export default function Layout({ children }) {
     return (

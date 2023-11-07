@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
-import Header from './components/Header.js';
+import {TextBox, TextBox2} from './../components/Textbox.js';
+import Header from './../components/Header.js';
 import Layout from "./../styles/layout.js";
 
 export default function booksession(){
@@ -96,7 +97,7 @@ export default function booksession(){
                 <br/>
                 <textarea type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 my-[15px] rounded w-full h-[100px]" />
               </div>
-              < input type='submit' className='self-center lg:self-end text-lg my-[20px] w-[90%] lg:w-[100px] align-right py-1 px-3 text-white border-2 border-orange rounded-l-full rounded-r-full bg-orange hover:bg-white hover:text-orange' onClick={(e)=>{handleSubmit(e)}}/>
+              < input type='submit' className='transition duration-200 self-center lg:self-end text-lg my-[20px] w-[90%] lg:w-[100px] align-right py-1 px-3 text-white border-2 border-orange rounded-l-full rounded-r-full bg-orange hover:bg-white hover:text-orange' onClick={(e)=>{handleSubmit(e)}}/>
               <div className = "p-[10px]">
               </div>
             </div>

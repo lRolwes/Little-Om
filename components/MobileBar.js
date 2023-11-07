@@ -3,6 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import 'tailwindcss/tailwind.css'
+
+
 
 export function Logo() {
     return (

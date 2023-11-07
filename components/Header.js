@@ -2,6 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
+import 'tailwindcss/tailwind.css'
+
+
 const Header = ({title, image}) => {
     return (
         <div className="z-0 px-10 py-5 lg:pt-0 pb-5 bg-tan object-cover flex flex-col items-center relative">

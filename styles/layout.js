@@ -1,8 +1,10 @@
 import 'tailwindcss/tailwind.css'
 import Image from "next/image";
-import Navbar from "./../pages/components/Navbar.js";
-import Footer from "./../pages/components/Footer.js";
-import MobileBar from "./../pages/components/MobileBar.js";
+import Navbar from "./../components/Navbar.js";
+import Footer from "./../components/Footer.js";
+import MobileBar from "./../components/MobileBar.js";
+import {Textbox, Textbox2} from "./../components/Textbox.js";
+import Header from "./../components/Header.js";
 
 export default function Layout({ children }) {
     return (

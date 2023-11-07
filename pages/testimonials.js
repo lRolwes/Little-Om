@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from './components/Header.js';
+import Header from './../components/Header.js';
 import Layout from "./../styles/layout.js";
-import {TextBox, TextBox2} from './components/Textbox.js';
+import {TextBox, TextBox2} from './../components/Textbox.js';
 
 
 export default function testimonials() {
@@ -64,7 +64,7 @@ export default function testimonials() {
               text2 = {'Shannon S.'}
             />
             <br className = "h-[5px]"/>
-             < TextBox 
+            <TextBox 
               text1 ={'"Alison was a breath of fresh air! She made me comfortable and it was absolutely a wonderful massage. I felt like a ton of stress dropped off and I could relax under her professional technique. I would recommend her to friends and family and would love to see her again."'}
               text2 = {'Jacynta D.'}
             />

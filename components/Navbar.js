@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import './nav.module.css'
+import 'tailwindcss/tailwind.css'
 
 
 export function Logo() {
@@ -41,7 +43,7 @@ const Navbar = () => {
                 <div className="px-3  py-4 rounded-l-full rounded-r-full">
                     <Link
                         href="/booksession"
-                        className="rounded-l-full text-sm rounded-r-full px-3 py-2 bg-orange text-white border-2 border-orange hover:bg-white hover:text-orange"
+                        className="transition duration-200 rounded-l-full text-sm rounded-r-full px-3 py-2 bg-orange text-white border-2 border-orange hover:bg-white hover:text-orange"
                     >
                         Book a Session
                     </Link>
