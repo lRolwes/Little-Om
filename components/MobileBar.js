@@ -52,11 +52,12 @@ const MobileBar = () => {
                             Massage
                         </Link>
                     </div>
-                    <div className="p-6 ">
+                    {/*<div className="p-6 ">
                         <Link href="/treatments" className="p-4 ">
                             Ayurvedic
                         </Link>
                     </div>
+            */}
                     <div className="p-6 ">
                         <Link href="/testimonials" className="p-4 ">
                             Testimonials

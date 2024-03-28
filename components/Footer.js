@@ -22,12 +22,12 @@ const Footer = () => {
                 >
                     Massage
                 </Link>
-                <Link
+                {/*<Link
                     href="/treatments"
                     className="text-gray-900 text-base font-normal font-['GeneralSans-Variable'] leading-normal"
                 >
                     Ayurvedic Treatments
-                </Link>
+    </Link>*/}
                 <Link
                     href="/testimonials"
                     className="text-gray-900 text-base font-normal font-['GeneralSans-Variable'] leading-normal"

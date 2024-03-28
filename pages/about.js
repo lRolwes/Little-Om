@@ -22,7 +22,7 @@ export default function about() {
             <div className="flex flex-col px-10">
                 <div className="flex flex-col lg:flex-row w-full items-center lg:items-left">
                     <div className = "lg:w-[60%] p-[20px] md:p-[50px]">
-                        <p className = "text-orange text-4xl font-bold font-serif leading-9">Allison's Story</p>
+                        <p className = "text-orange text-4xl font-bold font-serif leading-9">Alison's Story</p>
                         <hr className = "h-[2px] w-[120px] my-3 border-0 bg-orange"/>
                         <p className="text-black text-xl font-normal font-sans ">
                             I came to yoga as a result of a chronic illness in 2009.
