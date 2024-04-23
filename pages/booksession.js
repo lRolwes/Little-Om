@@ -21,6 +21,13 @@ export default function booksession(){
         treatment,
         message
       } 
+      setSubmitted(true);
+      setName('');
+      setEmail('');
+      setMessage('');
+      setTreatment('');
+      alert('Your message has been sent!');
+
       fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -29,15 +36,7 @@ export default function booksession(){
         },
         body: JSON.stringify(data)
       }).then((res) => {
-        console.log('Response received')
-        if (res.status === 250) {
-          console.log('Response succeeded!')
-          setSubmitted(true)
-          setName('')
-          setEmail('')
-          setMessage('')
-          setTreatment('')
-        }
+        console.log('Response succeeded!');
       }
       
       )
@@ -74,12 +73,12 @@ export default function booksession(){
               < div className="p-[10px]" >
                 < label htmlFor='name'>Name: </label>
                 <br/>
-                < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />  
+                < input type='text' onChange={(e)=>{setName(e.target.value)}} value={name} name='name' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />  
               </div>
               < div className="p-[10px]" >
                 < label htmlFor='email'>Email: </label>
                 <br/>
-                < input type='email' onChange={(e)=>{setEmail(e.target.value)}} name='email' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />
+                < input type='email' onChange={(e)=>{setEmail(e.target.value)}} value={email} name='email' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />
 
               </div>
 
@@ -88,12 +87,12 @@ export default function booksession(){
               < div className="p-[10px]" >
                 < label htmlFor='treatment'>Is there a specific treatment you're interested in?</label>
                 <br/>
-                < input type='text' onChange={(e)=>{setTreatment(e.target.value)}} name='treatment' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />
+                < input type='text' onChange={(e)=>{setTreatment(e.target.value)}} value={treatment} name='treatment' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 rounded my-[15px] w-full h-[40px]" />
               </div>
               <div className="p-[10px]" >
                 < label htmlFor='message'>Other notes to share: </label>
                 <br/>
-                <textarea type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 my-[15px] rounded w-full h-[100px]" />
+                <textarea type='text' onChange={(e)=>{setMessage(e.target.value)}} value={message} name='message' className="self-center px-[10px] py-[5px] bg-darktan border-2 border-slate border-opacity-25 my-[15px] rounded w-full h-[100px]" />
               </div>
               < input type='submit' className='transition duration-200 self-center lg:self-end text-lg my-[20px] w-[90%] lg:w-[100px] align-right py-1 px-3 text-white border-2 border-orange rounded-l-full rounded-r-full bg-orange hover:bg-white hover:text-orange' onClick={(e)=>{handleSubmit(e)}}/>
               <div className = "p-[10px]">

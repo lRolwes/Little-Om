@@ -58,13 +58,16 @@ export default function massage() {
                 <hr className = "h-[2px] w-[120px] my-3 border-0 bg-orange"/>
                 <p className = "text-center text-black text-2xl font-normal font-['GeneralSans-Variable'] ">I am currently in the midst of a two year training and am enthralled with this profound work. It support's the body's innate capacity for healing and helps you return to optimal health. If you would like to learn more, or to sample some BCST, please mention it when you schedule.</p>
               </div>
-              <div className = "lg:ml-10 p-10 mt-5 lg:mt-0  flex flex-col lg:flex-row bg-orange text-white rounded-lg flex-grow">
-                <div className = "self-center flex flex-col items-center shrink-0 w-[300px]">
+              <div className = "lg:ml-10 p-10 mt-5 lg:mt-0  flex flex-col lg:flex-row bg-orange text-white rounded-lg">
+                <div className = "self-center flex flex-col items-center shrink-0 w-[300px] ">
                   <p className = "text-center text-white text-4xl font-bold font-['Boska'] rounded-lg py-4">Pricing</p>
                   <div>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 min. treatment • $100</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">75 min. treatment • $115</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">90 min. treatment • $130</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">45 Minute Massage • $100</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">45 Minute BCST • $110</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 Minute Massage • $120</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 Minute BCST • $130</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">75 Massage and/or BCST Combo • $135</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">90 Massage and/or BCST Combo • $160</p>
                   </div>
                   <Link href = 'booksession' className = "text-white text-center text-xl font-normal font-['GeneralSans-Variable'] my-[15px]">All treatments are by appointment only. To schedule yours, complete the form here</Link>
                 </div>
