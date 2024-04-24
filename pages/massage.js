@@ -53,11 +53,7 @@ export default function massage() {
             </div>
 
             <div className = "align-center px-[10px] flex flex-col lg:flex-row w-full">
-              <div className = "self-center flex flex-col lg:w-[550px]  lg:h-[400px] shrink-0 items-center p-6 rounded-lg text-black bg-darktan text-center text-black text-2xl font-normal font-sans border-2 border-slate border-opacity-25 ">
-                <p className = "text-center text-orange text-2xl lg:text-4xl font-bold font-['Boska']">Biodynamic Craniosacral Therapy</p>
-                <hr className = "h-[2px] w-[120px] my-3 border-0 bg-orange"/>
-                <p className = "text-center text-black text-2xl font-normal font-['GeneralSans-Variable'] ">I am currently in the midst of a two year training and am enthralled with this profound work. It support's the body's innate capacity for healing and helps you return to optimal health. If you would like to learn more, or to sample some BCST, please mention it when you schedule.</p>
-              </div>
+            
               <div className = "lg:ml-10 p-10 mt-5 lg:mt-0  flex flex-col lg:flex-row bg-orange text-white rounded-lg">
                 <div className = "self-center flex flex-col items-center shrink-0 w-[300px] ">
                   <p className = "text-center text-white text-4xl font-bold font-['Boska'] rounded-lg py-4">Pricing</p>
@@ -69,7 +65,7 @@ export default function massage() {
                   </div>
                   <Link href = 'booksession' className = "text-white text-center text-xl font-normal font-['GeneralSans-Variable'] my-[15px]">All treatments are by appointment only. To schedule yours, complete the form here</Link>
                 </div>
-                <div className = "mx-0 lg:mx-[30px] flex flex-col items-start ">
+                <div className = "mx-0 lg:mx-[70px] flex flex-col items-start ">
                   <p className = "text-white text-4xl font-bold font-['Boska'] rounded-lg py-4 self-center text-center">Cancellation Policy</p>
                   <p className = "text-white text-center lg:text-left text-xl font-normal font-['GeneralSans-Variable'] mb-[10px] mt-[15px]">Should you need to cancel your treatment, a 24 hour notice is required. Treatments cancelled with less than 24 hours notice may result in a 50% charge of the treatment price and no shows will be charged the full treatment price.</p>
                 </div>

@@ -18,20 +18,15 @@ function Quote() {
 
 function Pricing() {
     return (
-        <div className=" w-full lg:w-[390px] my-[20px] lg:my-[0px] bg-orange rounded-lg">
-            <div className="p-8 w-full h-full flex flex-col justify-between">
+        <div className=" w-full h-[250px] lg:w-[390px] my-[20px] lg:my-[0px] bg-orange rounded-lg">
+            <div className="p-8 w-full flex flex-col justify-between">
                 <p className="text-center text-white text-4xl font-bold font-['Boska-Variable']">
                     Pricing
                 </p>
-                <p className="text-center text-white text-2xl font-normal font-['GeneralSans-Variable'] ">
-                    60 min. treatment • $100
-                </p>
-                <p className="text-center text-white text-2xl font-normal font-['GeneralSans-Variable'] ">
-                    75 min. treatment • $115
-                </p>
-                <p className="pb-5 text-center text-white text-2xl font-normal font-['GeneralSans-Variable'] ">
-                    90 min. treatment • $130
-                </p>
+                <p className = "py-1 text-center text-white text-xl font-normal font-['GeneralSans-Variable']">45 Minute Session • $100</p>
+                    <p className = "py-1 text-center text-white text-xl font-normal font-['GeneralSans-Variable']">60 Minute Session • $120</p>
+                    <p className = "py-1 text-center text-white text-xl font-normal font-['GeneralSans-Variable']">75 Minute Session • $135</p>
+                    <p className = "py-1 text-center text-white text-xl font-normal font-['GeneralSans-Variable']">90 Minute Session • $160</p>
             </div>
         </div>
     );
