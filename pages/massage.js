@@ -62,12 +62,10 @@ export default function massage() {
                 <div className = "self-center flex flex-col items-center shrink-0 w-[300px] ">
                   <p className = "text-center text-white text-4xl font-bold font-['Boska'] rounded-lg py-4">Pricing</p>
                   <div>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">45 Minute Massage • $100</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">45 Minute BCST • $110</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 Minute Massage • $120</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 Minute BCST • $130</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">75 Massage and/or BCST Combo • $135</p>
-                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">90 Massage and/or BCST Combo • $160</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">45 Minute Session • $100</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">60 Minute Session • $120</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">75 Minute Session • $135</p>
+                    <p className = "py-2 text-center text-white text-2xl font-normal font-['GeneralSans-Variable']">90 Minute Session • $160</p>
                   </div>
                   <Link href = 'booksession' className = "text-white text-center text-xl font-normal font-['GeneralSans-Variable'] my-[15px]">All treatments are by appointment only. To schedule yours, complete the form here</Link>
                 </div>
