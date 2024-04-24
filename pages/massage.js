@@ -67,7 +67,7 @@ export default function massage() {
                 </div>
                 <div className = "mx-0 lg:mx-[70px] flex flex-col items-start ">
                   <p className = "text-white text-4xl font-bold font-['Boska'] rounded-lg py-4 self-center text-center">Cancellation Policy</p>
-                  <p className = "text-white text-center lg:text-left text-xl font-normal font-['GeneralSans-Variable'] mb-[10px] mt-[15px]">Should you need to cancel your treatment, a 24 hour notice is required. Treatments cancelled with less than 24 hours notice may result in a 50% charge of the treatment price and no shows will be charged the full treatment price.</p>
+                  <p className = "text-white text-center lg:text-left text-xl font-normal font-['GeneralSans-Variable'] mb-[10px] mt-[15px]">All cancellations and/or rescheduling requests must be received with 24 hours’ notice prior to your scheduled appointment time. My full session rate will be charged for less than 24 hours’ notice. I hold the scheduled date and time for you; when an appointment is cancelled or missed with less than 24 hours’ notice, it is very difficult to fill and is a missed opportunity for another client who may have needed that therapeutic session, as well as lost income for me. Thank you for your consideration.</p>
                 </div>
               </div>
             </div>
