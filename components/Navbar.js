@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="hidden lg:flex">
                 <Logo />
             </div>
-            <div className="hidden lg:flex text-orange">
+            <div className="hidden lg:flex text-black">
                 <Link className = "transition duration-200 hover:-translate-y-1 hover:underline" href="/">
                     <div href = "/" className="px-6 py-4">Home</div>
                 </Link>

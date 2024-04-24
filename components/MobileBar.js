@@ -36,7 +36,7 @@ const MobileBar = () => {
                     nav ? "z-10 w-[100%] h-[100vh]" : "w-[0%] h-[0vh]"
                 }`}
             >
-                <div className="items-center z-10 flex flex-col ml-10 font-['GeneralSans-Variable']">
+                <div className="items-center z-10 flex flex-col ml-10 font-['GeneralSans-Variable'] text-black">
                     <div className="p-6 ">
                         <Link href="/" className="p-4">
                             Home
