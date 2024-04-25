@@ -21,7 +21,6 @@ export default function booksession(){
         treatment,
         message
       } 
-      setSubmitted(true);
       setName('');
       setEmail('');
       setMessage('');
@@ -36,8 +35,13 @@ export default function booksession(){
         },
         body: JSON.stringify(data)
       }).then((res) => {
-        console.log('Response succeeded!');
+        console.log('Response received')
+        if (res.status === 250) {
+          console.log('Response succeeded!')
+          setSubmitted(true)
+        }
       }
+      
       
       )
   }
