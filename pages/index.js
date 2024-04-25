@@ -68,7 +68,7 @@ function Waterfall() {
                     </Link>
                     <Link
                         className="py-1 px-3 mr-2 md:mr-0 mt-[15px] lg:mt-[0px] border-2 border-orange rounded-full hover:bg-orange transition duration-200"
-                        href="/treatments"
+                        href="/massage"
                     >
                         Explore Treatments
                     </Link>
