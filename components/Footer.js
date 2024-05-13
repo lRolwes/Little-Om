@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="py-10 w-full flex flex-col place-items-center ">
             <p className="py-1 text-black text-2xl font-bold font-['Boska-Variable'] leading-norma">
-                Little OM Yoga and Massage LLC
+                Little OM Yoga & Massage LLC
             </p>
 
             <div className="py-3 lg:w-[40vw] hidden lg:flex flex-row justify-between">
