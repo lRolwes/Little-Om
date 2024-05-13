@@ -49,7 +49,7 @@ const MobileBar = () => {
                     </div>
                     <div className="p-6">
                         <Link href="/massage" className="p-4 ">
-                            Massage
+                            Services
                         </Link>
                     </div>
                     {/*<div className="p-6 ">

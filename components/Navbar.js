@@ -32,7 +32,7 @@ const Navbar = () => {
                     <div className="px-6 py-4  "> About</div>
                 </Link>
                 <Link href="/massage" className = "transition duration-200 hover:-translate-y-1 hover:underline">
-                    <div className="px-6 py-4 ">Massage</div>
+                    <div className="px-6 py-4 ">Services</div>
                 </Link>
                 {/*<Link href="/treatments" className = "transition duration-200 hover:-translate-y-1 hover:underline">
                     <div className="px-6 py-4 "> Ayurvedic Treatments</div>

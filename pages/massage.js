@@ -8,15 +8,15 @@ export default function massage() {
   return (
     <Layout>
         <Head>
-              <title>Little Om Yoga - Massage</title>
+              <title>Little Om Yoga - Services</title>
               <meta
                   property="og:title"
-                  content="Little Om Yoga - Massage"
+                  content="Little Om Yoga - Services"
                   key="title"
               />
         </Head>
         <Header
-          title = "Massage"
+          title = "Services"
           image = "./images/massage.png"
         />
         <div>
@@ -49,6 +49,15 @@ export default function massage() {
                 <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Myofascial Release</p>
                 <hr className = " ml-10 h-[2px] w-[120px] my-3 border-0 bg-orange"/>
                 <p className = "ml-10 mt-5 text-black text-2xl font-normal font-['GeneralSans-Variable']">Fascia is connective tissue, an intricate webbing, that wraps muscle fibers, innervates bone and organs, and is woven all throughout the body. Oftentimes, there can be a stiffening and tension in the fascia, which can cause constriction, discomfort or pain, and restrict range of motion. Fascia acts as a support for the body. In myofascial release, light touch, which often feels like a gentle stretch, is applied to release constrictions in the body, bring fluidity, releasing tension and creating a greater sense of ease, while also allowing space for the muscles to relax into.</p>
+              </div>
+            </div>
+
+            <div className = "my-10 flex flex-col  lg:flex-row">
+              <img className="object-cover md:max-w-[400px] rounded-lg align-center item-center" src = "./images/bcst.png"/>
+              <div className = "flex flex-col my-7 lg:my-0">
+                <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Biodynamic Craniosacral Therapy</p>
+                <hr className = " ml-10 h-[2px] w-[120px] my-3 border-0 bg-orange"/>
+                <p className = "ml-10 mt-5 text-black text-2xl font-normal font-['GeneralSans-Variable']">Biodynamic Cranial Sacral (BCST) is a gentle, hands-on therapy. As a BCST therapist, I combine centered, embodied presence, gentle, whole being awareness, and still or light touch to listen to your expressions of health through fluid fluctuations, membranous tissue patterns, and the nervous system, including energetic layers. Through this listening, I may discern tensions held in the tissues and nervous system due to inertial patterns, which can develop in response to your unique life experiences. They are a result of your own expression of health, diligently working to bring balance, as best it can, regardless of the many circumstances that arise throughout life. BCST can facilitate reorganization of these patterns according to your innate healing wisdom, releasing tensions and stress held, and helping to create a greater sense of ease, balance and wellbeing. If you are curious about BCST and would like to learn more, or book a session, please reach out and we can schedule a call to discuss or simply make an appointment.</p>
               </div>
             </div>
 
