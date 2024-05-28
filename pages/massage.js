@@ -53,7 +53,9 @@ export default function massage() {
             </div>
 
             <div className = "my-10 flex flex-col  lg:flex-row">
-              <img className="object-cover md:max-w-[400px] rounded-lg align-center item-center" src = "./images/bcst.png"/>
+              <div className = "rounded-lg">
+              <img className="rounded-lg object-contain md:max-w-[400px]  align-center item-center" src = "./images/bcst.png"/>
+              </div>
               <div className = "flex flex-col my-7 lg:my-0">
                 <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Biodynamic Craniosacral Therapy</p>
                 <hr className = " ml-10 h-[2px] w-[120px] my-3 border-0 bg-orange"/>

@@ -57,14 +57,31 @@ export default function about() {
                         and Yin Yoga Teacher Training with Machelle Lee at Roots
                         & River Yoga.
                     </p>
+                    <br/>
+                    <p className="text-black text-xl font-normal font-sans"> 
+                            From this passage into yoga and Ayurveda, it felt like
+                            an organic evolution to the healing art of massage. I
+                            attended and graduated from PMTI's 18 month professional
+                            program in early 2021. The program reinforced my
+                            passions and the joy of collaborating with clients to
+                            facilitate access to a more calm, grounded and
+                            parasympathetic state. Whether you are seeking yoga,
+                            Ayurveda, massage or any combination thereof, it is my
+                            heart's desire to provide a truly trauma informed,
+                            compassionate, and client-centered experience. In
+                            partnering with each client on their wellness journey, I
+                            aspire to work collaboratively to bring balance, to
+                            positively impact all aspects; body, mind and spirit.
+                        </p>  
+
                 </div>
 
                 <br className="p-10" />
                 <div className = "bg-orange py-8 w-full"></div>
                 <br className="p-10" />
 
-                <div className="flex flex-col items-center lg:flex-row w-full">
-                    <div className="p-4 bg-darktan border-2 border-slate border-opacity-25 rounded-lg flex flex-col items-center lg:w-[50%]">
+                <div className="flex flex-col items-center justify-center lg:flex-row w-full">
+                    <div className="p-4 bg-darktan border-2 border-slate border-opacity-25 rounded-lg flex flex-col items-center lg:w-[70%]">
                         <img
                             className="w-16 h-16"
                             src="./images/flower.png"
@@ -87,23 +104,7 @@ export default function about() {
                             really are staring at us in the mirror.”
                         </p>
                     </div>
-                    <div className = "lg:w-[50%] pt-[25px] lg:pt-[0px] ">
-                        <p className="lg:ml-[75px] text-black text-xl font-normal font-sans">
-                            From this passage into yoga and Ayurveda, it felt like
-                            an organic evolution to the healing art of massage. I
-                            attended and graduated from PMTI's 18 month professional
-                            program in early 2021. The program reinforced my
-                            passions and the joy of collaborating with clients to
-                            facilitate access to a more calm, grounded and
-                            parasympathetic state. Whether you are seeking yoga,
-                            Ayurveda, massage or any combination thereof, it is my
-                            heart's desire to provide a truly trauma informed,
-                            compassionate, and client-centered experience. In
-                            partnering with each client on their wellness journey, I
-                            aspire to work collaboratively to bring balance, to
-                            positively impact all aspects; body, mind and spirit.
-                        </p>  
-                    </div>
+                    
                 </div>
             </div>
 
