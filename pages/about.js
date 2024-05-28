@@ -103,6 +103,8 @@ export default function about() {
                             Let's stop looking for our heroes 'out there'. They
                             really are staring at us in the mirror.”
                         </p>
+                        <p className = "text-center py-3">Jeff Brown</p>
+
                     </div>
                     
                 </div>
