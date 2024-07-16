@@ -5,7 +5,7 @@ import Layout from "./../styles/layout.js";
 
 function Quote() {
     return (
-        <div className="w-full lg:w-[390px] p-6 rounded-[10px] bg-darktan border-2 border-slate border-opacity-25 flex justify-center flex-col items-center">
+        <div className="w-full lg:w-[390px] p-6 rounded-[10px] bg-darktan shadow shadow-lg border-2 border-slate border-opacity-25 flex justify-center flex-col items-center">
             <p className="text-center text-black text-[28px] font-bold font-['Boska-Variable']">
                 “The quieter you become, the more you hear.”
             </p>
@@ -18,7 +18,7 @@ function Quote() {
 
 function Pricing() {
     return (
-        <div className=" w-full h-[250px] lg:w-[390px] my-[20px] lg:my-[0px] bg-orange rounded-lg">
+        <div className=" w-full h-[250px] lg:w-[390px] my-[20px] lg:my-[0px] shadow shadow-lg bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green1 from-50% to-green2 to-95% rounded-lg">
             <div className="p-8 w-full flex flex-col justify-between">
                 <p className="text-center text-white text-4xl font-bold font-['Boska-Variable']">
                     Pricing
@@ -34,7 +34,7 @@ function Pricing() {
 
 function Profilepic() {
     return (
-        <div className="">
+        <div className="shadow shadow-lg">
             <img
                 className="cover rounded-lg  w-full lg:w-[390px] border-2 border-slate border-opacity-25 "
                 src="./images/profile.png"
@@ -46,9 +46,9 @@ function Profilepic() {
 
 function Waterfall() {
     return (
-        <div className="px-10 pb-5 relative object-cover m">
+        <div className="px-10 pb-5 relative object-cover m ">
             <img
-                className="z-0 rounded-xl w-full mt-[20px] lg:mt-[0px] h-[85vh] object-cover"
+                className="z-0 rounded-xl w-full mt-[20px] lg:mt-[0px] h-[85vh] object-cover shadow shadow-lg"
                 src="./images/waterfall.jpg"
                 alt="/"
             />
@@ -61,7 +61,7 @@ function Waterfall() {
                 </h2>
                 <div className="gap-4 py-2 flex flex-col lg:flex-row ">
                     <Link
-                        className="py-1 px-3 mt-[15px] mr-2 md:mr-0 whitespace-nowrap lg:mt-[0px] flex-none rounded-l-full rounded-r-full bg-orange hover:bg-white hover:text-orange transition duration-200"
+                        className="py-1 px-3 mt-[15px] mr-2 md:mr-0 whitespace-nowrap lg:mt-[0px] flex-none rounded-l-full rounded-r-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green1 from-50% to-green2 to-95% hover:bg-white hover:text-orange transition duration-200"
                         href="/booksession"
                     >
                         Book a session

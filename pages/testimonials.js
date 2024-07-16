@@ -82,7 +82,7 @@ export default function testimonials() {
           </div>
         </div>
       </div>
-      <div className = "bg-orange  py-10 h-20 w-full"></div>
+      <div className = "bg-orange  py-10 h-20 w-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green1 from-50% to-green2 to-95% "></div>
     </Layout>
   );
 }

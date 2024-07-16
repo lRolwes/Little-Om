@@ -9,7 +9,7 @@ const Header = ({title, image}) => {
     return (
         <div className="z-0 px-10 py-5 lg:pt-0 pb-5 bg-tan object-cover flex flex-col items-center relative">
             <img
-                className="rounded-xl w-full h-[40vh] object-cover"
+                className="rounded-xl w-full h-[40vh] object-cover shadow shadow-lg"
                 src={image}
                 alt="/"
             />

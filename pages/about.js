@@ -37,9 +37,9 @@ export default function about() {
                             Shirodhara, Abhyanga and other healing treatments.
                         </p>
                     </div>
-                    <div className = "lg:w-[25%] pt-[50px]">
+                    <div className = "lg:w-[25%] pt-[50px] ">
                         <img
-                            className=""
+                            className="shadow shadow-lg"
                             src="./images/about2.png"
                         />
                     </div>
@@ -81,7 +81,7 @@ export default function about() {
                 <br className="p-10" />
 
                 <div className="flex flex-col items-center justify-center lg:flex-row w-full">
-                    <div className="p-4 bg-darktan border-2 border-slate border-opacity-25 rounded-lg flex flex-col items-center lg:w-[70%]">
+                    <div className="p-4 bg-darktan shadow shadow-lg border-2 border-slate border-opacity-25 rounded-lg flex flex-col items-center lg:w-[70%]">
                         <img
                             className="w-16 h-16"
                             src="./images/flower.png"

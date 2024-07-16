@@ -35,7 +35,7 @@ export default function massage() {
             </div>
 
             <div className = "my-10 flex flex-col lg:flex-row">
-              <img src = "./images/massage3.png"/>
+              <img className="shadow shadow-lg" src = "./images/massage3.png"/>
               <div className = "flex flex-col my-7 lg:my-0">
                 <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Deep Tissue</p>
                 <hr className = " ml-10 h-[2px] w-[120px] my-3 border-0 bg-orange"/>
@@ -44,7 +44,7 @@ export default function massage() {
             </div>
 
             <div className = "my-10 flex flex-col lg:flex-row">
-              <img src = "./images/massage4.png"/>
+              <img className="shadow shadow-lg" src = "./images/massage4.png"/>
               <div className = "flex flex-col my-7 lg:my-0">
                 <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Myofascial Release</p>
                 <hr className = " ml-10 h-[2px] w-[120px] my-3 border-0 bg-orange"/>
@@ -54,7 +54,7 @@ export default function massage() {
 
             <div className = "my-10 flex flex-col  lg:flex-row">
               <div className = "rounded-lg">
-              <img className="rounded-lg object-contain md:max-w-[400px]  align-center item-center" src = "./images/bcst.png"/>
+              <img className="rounded-lg object-contain md:max-w-[400px] shadow shadow-lg align-center item-center" src = "./images/bcst.png"/>
               </div>
               <div className = "flex flex-col my-7 lg:my-0">
                 <p className = "ml-10 text-orange text-4xl font-bold font-['Boska'] leading-9">Biodynamic Craniosacral Therapy</p>
@@ -65,7 +65,7 @@ export default function massage() {
 
             <div className = "align-center px-[10px] flex flex-col lg:flex-row w-full">
             
-              <div className = "lg:ml-10 p-10 mt-5 lg:mt-0  flex flex-col lg:flex-row bg-orange text-white rounded-lg">
+              <div className = "lg:ml-10 p-10 mt-5 lg:mt-0  flex flex-col lg:flex-row shadow shadow-lg  bg-orange text-white rounded-lg">
                 <div className = "self-center flex flex-col items-center shrink-0 w-[300px] ">
                   <p className = "text-center text-white text-4xl font-bold font-['Boska'] rounded-lg py-4">Pricing</p>
                   <div>
