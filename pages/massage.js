@@ -22,7 +22,7 @@ export default function massage() {
         <div>
           <div className = "p-10 flex flex-col">
             <div className = "my-10 flex flex-col lg:flex-row justify-between">
-              <img className="rounded-lg object-cover" src = './images/massage2.png' alt='/'/>
+              <img className="rounded-lg object-cover shadow shadow-lg" src = './images/massage2.png' alt='/'/>
               <div className = "flex my-7 lg:my-0 flex-col px-10 ">
                 <p className = "text-orange align-left text-4xl font-bold font-['Boska'] justify-between">Swedish Massage</p>
                 <hr className = "align-left h-[2px] w-[120px] my-3 border-0 bg-orange"/>
