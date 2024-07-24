@@ -47,6 +47,7 @@ const Footer = () => {
             <div className="w-full flex flew-row justify-between px-10 py-10">
                 <div className="px-5 self-center grow shrink basis-0 text-gray-900 text-base font-normal font-['GeneralSans-Variable'] leading-normal">
                     © 2023 Little OM Yoga & Massage, LLC. All rights reserved.
+                    
                 </div>
                 <Link
                     href="privacy"
@@ -55,6 +56,9 @@ const Footer = () => {
                     Privacy Policy
                 </Link>
             </div>
+            <Link href="https://www.ukonlabs.com" className="text-[8px] opacity-50" >
+                Ukon Web Development
+            </Link>
         </div>
     );
 };
